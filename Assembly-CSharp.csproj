@@ -59,22 +59,46 @@
     <UnityVersion>2022.3.21f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\dadi6\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\dadi6\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="D:\Aplikasi\Unity 2022.3.21f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\Aplikasi\Unity 2022.3.21f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Skrip\Draggable.cs" />
     <Compile Include="Assets\Skrip\PlayerMovement.cs" />
+    <Compile Include="Assets\Skrip\inventory.cs" />
+    <Compile Include="Assets\Skrip\paralax.cs" />
+    <Compile Include="Assets\Skrip\CreditScene.cs" />
+    <Compile Include="Assets\Skrip\NextScane1.cs" />
+    <Compile Include="Assets\Skrip\Score.cs" />
+    <Compile Include="Assets\Skrip\BGMManager.cs" />
+    <Compile Include="Assets\Skrip\Tikus\Tikus.cs" />
+    <Compile Include="Assets\Skrip\AudioMnager.cs" />
     <Compile Include="Assets\Skrip\StartMenu.cs" />
+    <Compile Include="Assets\Skrip\Nyawa\NyawaKuis.cs" />
+    <Compile Include="Assets\Skrip\VnSkrip.cs" />
+    <Compile Include="Assets\Skrip\pickups.cs" />
+    <Compile Include="Assets\Skrip\DropZone.cs" />
+    <Compile Include="Assets\Skrip\Tikus\TikusMovement.cs" />
     <Compile Include="Assets\Skrip\tanahpintar.cs" />
     <Compile Include="Assets\Skrip\cameraMovement.cs" />
+    <Compile Include="Assets\Skrip\Spikes.cs" />
+    <Compile Include="Assets\Skrip\dialogSkrip.cs" />
+    <Compile Include="Assets\Skrip\paralaxControler.cs" />
+    <Compile Include="Assets\Skrip\Nyawa\Nyawa.cs" />
+    <Compile Include="Assets\Skrip\Loading manager.cs" />
+    <Compile Include="Assets\Skrip\Nyawa\BarNyawa.cs" />
+    <Compile Include="Assets\Skrip\PlayerMovementSetting1.cs" />
     <Compile Include="Assets\Skrip\falltriger.cs" />
+    <Compile Include="Assets\Skrip\KuisScrip.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\GOODDOGP.TXT" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\karsiori\Scenes\Sprites\Pixel Art Key Pack - Animated\Key Pack - Read Me.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -954,6 +978,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1016,6 +1044,14 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
